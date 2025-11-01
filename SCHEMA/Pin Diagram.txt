@@ -1,0 +1,70 @@
+ Pin Bağlantıları
+
+LCD Ekran (I2C)
+- SDA -> Arduino Mega pin 20 
+- SCL -> Arduino Mega pin 21 
+- VCC -> Arduino Mega 5V
+- GND -> Arduino Mega GND
+
+IR Alıcı
+- Veri -> Arduino Mega pin 12
+- VCC -> Arduino Mega 5V
+- GND -> Arduino Mega GND
+
+RFID-RC522 Modülü
+- SDA (SS) -> Arduino Mega pin 53
+- SCK -> Arduino Mega pin 52
+- MOSI -> Arduino Mega pin 51
+- MISO -> Arduino Mega pin 50
+- RST -> Arduino Mega pin 49
+- 3.3V -> Arduino Mega 3.3V
+- GND -> Arduino Mega GND
+
+Servo Motorlar
+- Kapı Servo -> Arduino Mega pin 2
+- Bariyer Servo -> Arduino Mega pin 3
+- Perde Servo -> Arduino Mega pin 4
+- VCC -> 5V harici güç kaynağı
+- GND -> Arduino Mega GND
+
+Trafik Lambası LED'leri
+- Kırmızı LED -> Arduino Mega pin 24 (330 ohm dirençli)
+- Sarı LED -> Arduino Mega pin 25 (330 ohm dirençli)
+- Yeşil LED -> Arduino Mega pin 26 (330 ohm dirençli)
+
+Alarm LED'leri
+- Deprem Kırmızı LED -> Arduino Mega pin 27 (330 ohm dirençli)
+- Gaz/Yangın Kırmızı LED -> Arduino Mega pin 28 (330 ohm dirençli)
+- Hareket LED -> Arduino Mega pin 29 (330 ohm dirençli)
+- Mesafe Alarm Kırmızı LED -> Arduino Mega pin 30 (330 ohm dirençli)
+
+ Sensörler
+- DHT11 -> Arduino Mega pin 31
+- Alev Sensörü -> Arduino Mega pin 32
+- PIR Hareket Sensörü -> Arduino Mega pin 33
+- Tilt Sensör -> Arduino Mega pin 34
+- MQ-2 Gaz Sensörü Analog -> Arduino Mega pin A0
+- Yağmur Sensörü Analog -> Arduino Mega pin A1
+
+ HC-SR04 Ultrasonik Mesafe Sensörü
+- Trig -> Arduino Mega pin 35
+- Echo -> Arduino Mega pin 36
+
+Kızılötesi Bariyer Sensörü
+- Alıcı (Receiver) Sinyal -> Arduino Mega pin 7
+- Alıcı (Receiver) VCC -> Arduino Mega 5V
+- Alıcı (Receiver) GND -> Arduino Mega GND
+- Verici (Transmitter) VCC -> Arduino Mega 5V
+- Verici (Transmitter) GND -> Arduino Mega GND
+
+Röle Modülü (4 kanal)
+- Röle 1 (Lamba) -> Arduino Mega pin 37
+- Röle 2 (Gaz Vanası) -> Arduino Mega pin 38
+- Röle 3 (Priz) -> Arduino Mega pin 39
+- Röle 4 (Yangın Söndürme) -> Arduino Mega pin 40
+- VCC -> Arduino Mega 5V
+- GND -> Arduino Mega GND
+
+ Buzzer
+- Pozitif -> Arduino Mega pin 10
+- Negatif -> Arduino Mega GND
